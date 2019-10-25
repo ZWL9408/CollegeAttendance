@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+ xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+ id="WebApp_ID" version="3.1">
+  <display-name>Stu_attendance</display-name>
+  <servlet>
+    <servlet-name>userServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.userServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>absenceServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.absenceServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>absencecheckServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.absencecheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>att_studentServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.att_studentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>attendantServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.attendantServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>courseServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.courseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>studentsServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.studentsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>teacherServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.teacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>pwdmodifyServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.pwdmodifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>leaveServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.leaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>personalServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.personalServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>clazzServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.clazzServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showstudentServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.showstudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>testServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.testServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>clazzChooseServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.clazzChooseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>co_timeServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.co_timeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>namecheckServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.namecheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>leavedoneServlet</servlet-name>
+    <servlet-class>com.attendance.servlet.leavedoneServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>userServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>absenceServlet</servlet-name>
+    <url-pattern>/absenceServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>absencecheckServlet</servlet-name>
+    <url-pattern>/absencecheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>att_studentServlet</servlet-name>
+    <url-pattern>/att_studentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>attendantServlet</servlet-name>
+    <url-pattern>/attendantServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>courseServlet</servlet-name>
+    <url-pattern>/courseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>studentsServlet</servlet-name>
+    <url-pattern>/studentsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>teacherServlet</servlet-name>
+    <url-pattern>/teacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pwdmodifyServlet</servlet-name>
+    <url-pattern>/pwdmodifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>leaveServlet</servlet-name>
+    <url-pattern>/leaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>personalServlet</servlet-name>
+    <url-pattern>/personalServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clazzServlet</servlet-name>
+    <url-pattern>/clazzServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showstudentServlet</servlet-name>
+    <url-pattern>/showstudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/testServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clazzChooseServlet</servlet-name>
+    <url-pattern>/clazzChooseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>co_timeServlet</servlet-name>
+    <url-pattern>/co_timeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>namecheckServlet</servlet-name>
+    <url-pattern>/namecheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>leavedoneServlet</servlet-name>
+    <url-pattern>/leavedoneServlet</url-pattern>
+  </servlet-mapping> 
+  
+  <!-- 欢迎界面 -->
+    <welcome-file-list>  
+        <welcome-file>index.jsp</welcome-file>  
+    </welcome-file-list>  
+</web-app>

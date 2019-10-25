@@ -1,0 +1,168 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* 登录页 */
+.container {
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg);
+	background-size: cover;
+}
+.login-box {
+	height: 100%;
+	position: relative;
+}
+.login-container {
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -10%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 40px;
+	background-color: rgba(255, 255, 255, .8);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5)
+}
+.login-container p {
+	margin-bottom: 26px;
+	text-align: center;
+	color: #333;
+	font-size: 30px;
+	font-weight: bold;
+}
+.input-row {
+	width: 100%;
+	margin: 20px 0;
+	position: relative;
+}
+.input-row input, .input-row select {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 30px;
+	color: #444;
+	font-size: 16px;
+	border: 1px solid rgba(56, 114, 247, .2);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+	background-color: transparent;
+	box-shadow: 0 0 10px rgba(56, 114, 247, .1);
+}
+.input-row input::-webkit-input-placeholder {
+	color: #444;
+}
+.input-row input::-moz-placeholder {
+	color: #444;
+}
+.input-row input:-moz-input-placeholder {
+	color: #444;
+}
+.input-row input::-ms-input-placeholder {
+	color: #444;
+}
+.username, .password {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+}
+.username {
+	background: url(../img/name.png);
+	background-size: 100% 100%;
+}
+.password {
+	background: url(../img/pwd.png);
+	background-size: 100% 100%;
+}
+.btn-row {
+	text-align: center
+}
+.btn {
+	width: 45%;
+	height: 40px;
+	margin: 0 2%;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	border: none;
+	outline: none;
+	background-color: rgb(56, 114, 247);
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: rgba(56, 114, 247, .2);
+	color: #333;
+}
+
+/* 侧边导航栏 */
+.content {
+	height: 100%;
+}
+.navs {
+	width: 15%;
+	height: 100%;
+	padding-top: 50px;
+	float: left;
+	background-color: rgba(56, 114, 247, .8);
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+	box-sizing: border-box;
+}
+.navs ul li {
+	width: 100%;
+	height: 50px;
+}
+.navs ul li a {
+	display: block;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 16px;
+	color: #ccc;
+	text-align: center;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.navs ul li.active a {
+	background-color: rgb(58, 104, 211);
+	color: #ccc;
+}
+.navs ul li a:hover {
+	background-color: rgb(58, 104, 211);
+	color: #ccc;
+	letter-spacing: 1px;
+}
+.nav-contents {
+	width: 85%;
+	height: 100%;
+	padding: 30px;
+	float: left;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.tab-content {
+	display: none;
+}
+.nav-contents .cur-content {
+	display: block;
+}
+
+.clearfix {
+	clear: both;
+}
